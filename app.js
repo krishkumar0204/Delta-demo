@@ -1,7 +1,10 @@
 // sum of two number
 
-const num1 = prompt("enter first number: ");
-const num2 = prompt("Enter second number :");
+const num1 = parseFloat(prompt("Enter first number: "));
+const num2 = parseFloat(prompt("Enter second number: "));
 
-let sum = num1 + num2;
-alert.log(sum);
+if (isNaN(num1) || isNaN(num2)) {
+  alert("Please enter valid numbers!");
+} else {
+  alert(`Sum: ${num1 + num2}`);
+}
