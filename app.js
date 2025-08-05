@@ -1,6 +1,7 @@
 // sum of two number
 
-let num1 = prompt("enter first number: ");
-let num2 = prompt("Enter second number :");
+const num1 = prompt("enter first number: ");
+const num2 = prompt("Enter second number :");
 
-console.log(num1 + num2);
+let sum = num1 + num2;
+alert.log(sum);
